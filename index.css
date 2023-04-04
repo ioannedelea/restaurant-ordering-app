@@ -1,0 +1,89 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Smythe", cursive;
+}
+
+h1 {
+  font-size: 39px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.header-inner {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 600px;
+  gap: 15px;
+  padding-left: 46px;
+  padding-bottom: 50px;
+  background-image: url("images/burger.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+img {
+  align-self: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.items-ordered {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 510px;
+  margin: 0 auto;
+  border-bottom: 1px solid #d2d2d2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.items-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 30px;
+}
+
+.items-add {
+  align-self: center;
+  margin-left: auto;
+  font-size: 46px;
+}
+
+.item-name {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.item-ingredients {
+  color: #8b8b8b;
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.item-price {
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.fa-circle-plus {
+  align-self: flex-end;
+}
