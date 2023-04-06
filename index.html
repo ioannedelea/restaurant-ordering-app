@@ -27,7 +27,7 @@
     <main>
       <!-- to be continued -- this section is as placeholder for the layout-->
       <section id="order-items">
-        <div class="items-ordered">
+        <!-- <div class="items-ordered">
           <img src="images/item-pizza.png" />
           <div class="items-details">
             <p class="item-name">Pizza</p>
@@ -61,18 +61,21 @@
           <div class="items-add">
             <img src="images/add-btn.png" />
           </div>
-        </div>
+        </div> -->
       </section>
       <!-- Order summary -->
       <section id="order-total">
         <h1 class="your-order">Your order</h1>
+        <div id="ordered-items">
+          <!-- shopping-cart -->
+        </div>
 
-        <div class="order-summary">
+        <!-- <div class="order-summary">
           <div>
             <h2>Pizza <a href="#" class="delete-item">remove</a></h2>
           </div>
           <div>
-            <h2>$12</h2>
+            <h2>$14</h2>
           </div>
         </div>
 
@@ -83,9 +86,21 @@
           <div>
             <h2>$12</h2>
           </div>
+        </div> -->
+
+        <hr />
+
+        <div class="order-summary">
+          <div>
+            <h2>Total price:</h2>
+          </div>
+          <div>
+            <h2>$26</h2>
+          </div>
         </div>
+        <button id="complete-order" class="btn-complete">Complete order</button>
       </section>
     </main>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>
